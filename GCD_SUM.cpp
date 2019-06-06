@@ -16,7 +16,7 @@ void prec(){
 void computeSum(){
     for(auto i=1;i<MAX;i++){
         for(auto j=2;i*j<MAX;j++){//        DOING FROM THE FACT THAT D IS DIVISOR AND IF WE WILL USING THIS FORMULA 
-            result[i*j]+=i*result[j];//     THEN IT WILL GIVE US THE SUM OF ALL THOSE NUMBER WHOSE GCD IS I
+            result[i*j]+=i*result[j];//     THEN IT WILL GIVE US THE SUM OF ALL THOSE NUMBER WHOSE GCD IS D
         }
     }
     
